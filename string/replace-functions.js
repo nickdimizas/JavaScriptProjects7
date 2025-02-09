@@ -18,4 +18,4 @@ if (firstname.trim() === "Alice") {
 console.log("Coding".repeat(10))
 
 const concat = s + s2 + "Goodnight!"
-const concat = s.concat(s2).concat("Bye!")
+const concat2 = s.concat(s2).concat("Bye!")
