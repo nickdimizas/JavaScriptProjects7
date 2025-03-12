@@ -80,8 +80,7 @@ function renderNotes() {
  */
 function strikeThrough(key) {
   notes = notes.map(note => 
-    note.key === key ? {...note, softDeleted: !note.softDeleted} : {...note}
-  )
+    note.key === key ? {...note, softDeleted: !note.softDeleted} : {...note})
   renderNotes()
 }
 
